@@ -3,8 +3,30 @@
 > **Memory Efficient Coding Agent (MECA)** — reference implementation.
 
 ---
+```
+                  __------__                        
+               /~          ~\
+              |    //^\\//^\|
+            /~~\  ||  o| |o|:~\
+           | |6   ||___|_|_||:|             
+            \__.  /      o  \/'
+             |   (        O   )
+    /~~~~\   `\  \         /         ██     ██ ██    ██ ██   ██  ██████  ███    ██  ██████  
+   | |~~\ |      )  ~------~`\       ██     ██ ██    ██ ██  ██  ██    ██ ████   ██ ██       
+  /' |  | |    /      ____ /~~~)\    ██  █  ██ ██    ██ █████   ██    ██ ██ ██  ██ ██   ███  
+ (_/'   | | |     /'    |    ( |     ██ ███ ██ ██    ██ ██  ██  ██    ██ ██  ██ ██ ██    ██  
+        | | |     \    /   __)/ \     ███ ███   ██████  ██   ██  ██████  ██   ████  ██████   
+        \  \ \      \/    /' \   `\                                                    
+          \  \|\        /   | |\___|
+            \ |  \____/     | |
+            /^~>  \        _/ <
+           |  |         \       \
+           |  | \        \       \
+           -^-\  \       |       )
+                `\_______/^\______/                                        
+```
 
-## What Is MECA
+## MECA
 
 MECA (Memory Efficient Coding Agent) is a class of coding agent defined by the following properties:
 
@@ -18,7 +40,7 @@ An agent that supports local models but was not designed around these constraint
 
 ---
 
-## What This Is
+## What Is It ?
 
 wukong is the first MECA-class implementation. Primary target: 4–8GB VRAM via ollama.
 
@@ -28,7 +50,7 @@ wukong is built the other way. The 7b model is the design target. Everything fol
 
 ---
 
-## Why The Architecture Looks This Way
+## Architecture - Justification
 
 | Problem | What existing agents do | What wukong does |
 |---|---|---|
